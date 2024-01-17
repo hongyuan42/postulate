@@ -1,5 +1,95 @@
 body {
+    font-family: 'Cascadia', sans-serif;
     margin: 0; 
-    background: white;
-    text-align: center; 
+    padding: 0;
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: left;
 }
+
+p {
+    font-family: 'Cascadia', sans-serif;
+    margin: 0; 
+    padding: 0;
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: justify;
+    max-width: 600px; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 72px; 
+    order: 1;
+}
+
+.header-content {
+    text-align: left;
+    order: 0; 
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+section h2 {
+    color: #333;
+    margin: 0; 
+    padding: 0;
+    line-height: 1.2;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+.service-list li {
+    margin-bottom: 20px;
+    overflow: hidden ;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-list li {
+    margin-bottom: 20px;
+    overflow: hidden ;
+}
+
+.project-list img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px; /* Optional: add rounded corners */
+    display: block; /* Ensures images are block elements */
+    margin-bottom: 10px; /* Adjust spacing between image and text */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+}
+
