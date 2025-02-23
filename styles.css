@@ -1,0 +1,74 @@
+body {
+    font-family: 'Cascadia', sans-serif;
+    margin: 0; 
+    padding: 0;
+    line-height: 2;
+    font-size: 16px;
+    text-align: left;
+}
+
+p {
+    font-family: 'Cascadia', sans-serif;
+    margin: 0; 
+    padding: 0;
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: justify;
+    /* max-width: 800px;  */
+}
+
+header {
+    background-color: grey;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: grey;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    max-width: 72px; 
+    order: 1;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 10px; 
+}
+
+a {
+    color:yellowgreen; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.offerings-list li{
+    font-size: 16px; 
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Space between grid items */
+    max-width: 1200px
+}
+
+.grid-list li {
+    list-style: none;
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
