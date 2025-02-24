@@ -1,22 +1,23 @@
 /* styles.css */
 body {
     font-family: sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    background-color: #f0f0f0;
-    font-size: 24px;
+    background-color: #ffffff;
+    font-size: 24px;    
 }
 
 .container {
     margin: auto;
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1024px ;
 }
 
 .logo-container {
     text-align: center;
-    margin-bottom: 75px;
+    margin-bottom: 75px;    
 }
 
 .logo {
@@ -25,21 +26,36 @@ body {
 }
 
 h1 {
+    text-align: center;
     margin-top: 10px;
-    color: #333;
     font-size: 56px;
+    color: #550000ff;
 }
+
+h2 {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #550000ff;
+}
+
+p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
 
 .content {
     line-height: 1.6;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-.clients {
+/* .clients {
     text-align: left;
     margin-bottom: 30px;
-    color: yellowgreen;
-}
+    color: #550000ff;
+} */
 
 .client-logos {
     display: flex;
@@ -49,7 +65,7 @@ h1 {
 }
 
 .client-logo {
-    max-height: 100px;
+    max-height: 128px;
     width: auto;
 }
 
@@ -58,7 +74,7 @@ h1 {
     justify-content: space-between;
     margin-top: 75px;
     padding-top: 20px;
-    border-top: 3px solid yellowgreen;
+    border-top: 3px solid #d7e3f4ff;
     font-size: 0.9em;
 }
 
@@ -67,10 +83,11 @@ h1 {
 }
 
 a {
-    color: blue;
+    color: #550000ff;
     text-decoration: underline;
 }
 
 a:hover {
     text-decoration: underline;
 }
+
